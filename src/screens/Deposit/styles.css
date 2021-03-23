@@ -1,0 +1,43 @@
+.deposit-main {
+    background-color: #f3f3f3;
+}
+
+.deposit-main-container {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deposit-select-field>option {
+    padding: 10px !important;
+}
+
+.deposit-info-container {
+    margin-top: 10px;
+    background-color: #f5f8f9;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 51%;
+}
+
+.deposit-main-container-wallet {
+    display: flex;
+    justify-content: center;
+}
+
+.deposit-main-container-tips {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deposit-info-container-name {
+    display: flex;
+    /* justify-content: space-between; */
+}

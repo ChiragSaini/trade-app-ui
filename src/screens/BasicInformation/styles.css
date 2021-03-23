@@ -1,0 +1,32 @@
+.basic__info {
+    background-color: #f3f3f3;
+}
+
+.basic__info__container {
+    background-color: #fff;
+    margin: 2em 0;
+    box-shadow: 0 0 5px rgba(104, 100, 100, 0.1);
+}
+
+.basic__info__container__details__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.small-size-select-field {
+    width: 25% !important;
+    font-size: 0.875rem;
+    padding: 0;
+}
+
+.navbar-div {
+    min-height: 6vh;
+}
+
+.secondary-navbar-div {
+    min-height: 4vh;
+}

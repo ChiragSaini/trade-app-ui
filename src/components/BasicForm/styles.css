@@ -1,0 +1,13 @@
+.reset-password-button {
+    text-align: left;
+    margin-left: 65%;
+    font-size: 0.8rem;
+}
+
+.reset-password-button span {
+    color: #aaa;
+}
+
+.alert {
+    width: 80%;
+}

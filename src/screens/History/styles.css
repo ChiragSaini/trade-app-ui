@@ -1,0 +1,37 @@
+.assets-record {
+    background-color: #f3f3f3;
+}
+
+.assets-record-main-container {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.assets-record-nav-button {
+    margin: 0 10px;
+    color: #333 !important;
+    background-color: #f5f8f9 !important;
+    border: none !important;
+    font-size: 0.875rem !important;
+    border-radius: 0 !important;
+}
+
+.assets-record-nav-button:hover {
+    color: #333;
+}
+
+.assets-record-nav-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.isSelected {
+    border-bottom: 2px solid #3898ff !important;
+    color: #3898ff !important;
+}
+
+.assets-record-main-container-table {
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.875rem;
+}

@@ -1,0 +1,39 @@
+.currencies-select-button {
+    background: transparent !important;
+    color: #333 !important;
+    border: none !important;
+}
+
+.currencies-select-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.popover {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+/* .currencies-table {
+    overflow-y: scroll;
+} */
+
+.popover-header input {
+    position: sticky;
+    top: 0;
+}
+
+
+.popover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.popover::-webkit-scrollbar-track {
+    box-shadow: inset 6px 6px 6px rgb(156, 152, 152);
+    border-radius: 10px;
+}
+
+.popover::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 6px rgb(192, 191, 191);
+}

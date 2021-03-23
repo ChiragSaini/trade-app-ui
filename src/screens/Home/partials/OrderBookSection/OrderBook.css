@@ -1,0 +1,274 @@
+.order-book-main {
+    overflow: hidden;
+    width: 100%;
+    height: 100% !important;
+    font-size: 0.875rem;
+}
+
+.order-book-main::-webkit-scrollbar {
+    display: none !important;
+}
+
+.box {
+    border: 1px solid #fff;
+    max-height: 47%;
+    /* height: auto; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow-y: scroll;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+.box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.box::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.big-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.big-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.big-box::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* .big-box::-webkit-scrollbar {
+    display: none;
+} */
+
+/* .box::-webkit-scrollbar {
+    scrollbar-width: .2px !important;
+} */
+
+.big-box {
+    max-height: 100%;
+    border: 1px solid #fff;
+    overflow-y: scroll;
+}
+
+.green-accent-button {
+    color: rgb(36, 174, 143) !important;
+    font-size: 0.875rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.market-depth-button {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+
+.order-book-main-first-row {
+    height: 5%;
+    font-size: 0.875rem;
+}
+
+.order-book-main-second-row {
+    height: 95%;
+}
+
+.order-book-main-heading {
+    font-size: 1.2em;
+}
+
+.order-book-main-buttons {
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px !important;
+}
+
+.order-book-main-trade-history {
+    font-size: 1.2rem;
+}
+
+.box td {
+    padding: 1px;
+}
+
+.big-box td {
+    padding: 1px;
+}
+
+.trade-history-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media(min-height:598px) {
+    .trade-history-buttons {
+        display: inline;
+    }
+}
+
+@media(min-height:500px) {
+    .order-book-main-heading {
+        font-size: 1rem;
+    }
+
+    .trade-history-buttons {
+        display: none;
+    }
+
+    .order-book-main-trade-history {
+        font-size: 1rem;
+    }
+
+    .order-book-main-first-row {
+        height: 10%;
+    }
+
+    .order-book-main-second-row {
+        height: 90%;
+    }
+
+    .box {
+        max-height: 44%;
+    }
+
+    .green-accent-button,
+    .market-depth-button {
+        font-size: 0.7rem;
+    }
+}
+
+@media(min-height:600px) {
+    .order-book-main-heading {
+        font-size: 1.2rem;
+    }
+
+    .order-book-main-trade-history {
+        font-size: 1.2rem;
+    }
+
+    .trade-history-buttons {
+        display: block;
+    }
+
+    .order-book-main-first-row {
+        height: 8%;
+    }
+
+    .order-book-main-second-row {
+        height: 92%;
+    }
+
+    .box {
+        max-height: 48%;
+    }
+
+    .green-accent-button,
+    .market-depth-button {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media(min-height:600px) {
+    .order-book-main-heading {
+        font-size: 1rem;
+    }
+
+    .order-book-main-trade-history {
+        font-size: 1rem;
+    }
+
+    .order-book-main-first-row {
+        height: 8%;
+    }
+
+    .order-book-main-second-row {
+        height: 92%;
+    }
+
+    .box {
+        max-height: 47%;
+    }
+
+    .green-accent-button,
+    .market-depth-button {
+        font-size: 0.7rem;
+    }
+
+}
+
+/* 
+@media(min-height:500px) {
+    .order-book-main-first-row {
+        height: 6%;
+    }
+
+    .order-book-main-second-row {
+        height: 94%;
+    }
+
+    .box {
+        max-height: 47%;
+    }
+
+    .green-accent-button,
+    .market-depth-button {
+        font-size: 0.7rem;
+    }
+
+} */
+
+
+@media (max-height:500px) {
+    .order-book-main {
+        display: none !important;
+    }
+}
+
+
+/* @media(min-width:600px) {
+    .order-book-main-heading {
+        font-size: 0.875em;
+    }
+}
+
+@media (min-width:600px) {
+    .order-book-main-first-row {
+        height: 9%;
+    }
+
+    .green-accent-button {
+        font-size: 0.7rem !important;
+        margin-right: 5px;
+    }
+
+    .market-depth-button {
+        font-size: 0.7rem !important;
+    }
+}
+
+@media (min-width:1100px) {
+    .order-book-main-first-row {
+        height: 5%;
+    }
+
+    .order-book-main-heading {
+        font-size: 1.1em;
+    }
+} */

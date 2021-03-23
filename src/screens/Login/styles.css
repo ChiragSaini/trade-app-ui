@@ -1,0 +1,95 @@
+.login__screen__left__banner {
+    background-image: url("https://assets.staticimg.com/next-web/2.11.20/_next/static/assets/bg.72979.png");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login__screen__left__heading {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin: 0px 50px;
+}
+
+.login__screen__left__small__heading {
+    color: #ccc;
+    margin: 0px 50px;
+}
+
+.login__screen__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login__screen__right__heading {
+    font-size: 2rem;
+    margin-left: 2.5em;
+}
+
+.login__screen__right__signup {
+    margin-top: 2em;
+    margin-right: 0.7;
+    font-size: 0.875rem;
+    text-align: right;
+    color: #999;
+}
+
+.login__screen__right__signup a {
+    color: #24ae8f;
+}
+
+
+.login__screen__right__label {
+    color: #aaa;
+    font-size: 0.875rem;
+}
+
+.login__screen__right__login__form {
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.login__screen__right__login__form em {
+    display: block;
+    color: red;
+}
+
+
+.login__screen__right__login__form label {
+    display: block;
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.login__screen__right__login__form input {
+    margin-bottom: 0.7rem;
+    background-color: #f3f3f3;
+    border-radius: 0;
+    border: none;
+    width: 80%;
+    height: 3rem;
+    padding: 0px 1rem;
+    border-radius: 2px;
+}
+
+.login__screen__right__login__form input:focus {
+    border: 1px solid #24ae8f;
+    outline: 0 none;
+}
+
+.login__screen__right__login__form button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: #24ae8f;
+    color: white;
+    width: 80%;
+    height: 3rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}

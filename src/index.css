@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'URWDIN-Medium';
+  src: local('URWDIN-Medium'), url(./assets/URWDIN-Medium.ttf) format('truetype');
+  src: local('URWDIN-Medium'), url(./assets/URWDIN-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'URWDIN-Medium', "URWDIN-Regular", sans-serif !important;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}

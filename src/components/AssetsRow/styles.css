@@ -1,0 +1,15 @@
+.assets-row {
+    padding: 20px;
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 0px 10px;
+}
+
+.assets-row:nth-child(odd) {
+    background-color: #f5f6f9;
+}
+
+.assets-row img {
+    margin: 0px 10px;
+    height: 20px;
+}

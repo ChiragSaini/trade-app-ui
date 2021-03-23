@@ -1,0 +1,21 @@
+.main-account {
+    background: #f3f3f3;
+}
+
+.main-account-main-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.main-account-row-account-details {
+    border: 1px solid #0F7DFF;
+    color: #0F7DFF;
+    padding: 0 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px 0 rgba(15, 125, 255, 0.16);
+    font-size: 0.875rem;
+}

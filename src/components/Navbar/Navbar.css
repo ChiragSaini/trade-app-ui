@@ -1,0 +1,78 @@
+nav {
+    /* max-height: 70px; */
+    /* height: 10% !important; */
+    /* width: 100%; */
+    font-size: 1em;
+}
+
+.navbar__text__heading {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.navbar-collapse {
+    background: #fff;
+    /* width: 5% !important; */
+    /* margin: 0px 10px; */
+    padding: 0px 20px;
+}
+
+.navbar-toggler {
+    font-size: 0.5rem !important;
+
+}
+
+.navbar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* .this-will-collapse {
+    background-color: #f3f3f3;
+} */
+
+.navbar__text__body {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.button-navbar {
+    font-size: 0.9em;
+}
+
+.button-navbar:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.login-button {
+    background-color: #24AE8F;
+    color: white;
+}
+
+.navbar-profile-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #333;
+}
+
+.navbar-profile-button a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-wallet-button {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #333;
+}

@@ -1,0 +1,136 @@
+.main {
+    height: 100vh !important;
+    /* height: auto; */
+    /* height: 100% !important; */
+    width: 100%;
+    box-sizing: border-box;
+    /* background: #f3f3f3 !important; */
+}
+
+.contents {
+    /* display: grid; */
+    /* display: flex; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    overflow: hidden;
+}
+
+.border-between-boxes {
+    border: 2px solid lightgrey;
+}
+
+.reset-margins-and-padding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.upper-div-buyorsell {
+    height: 35%;
+    /* height: auto; */
+}
+
+.lower-div-orderbook {
+    height: 65%;
+    /* height: auto; */
+}
+
+/* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+/* @media (min-height:900px) {
+    .upper-div-buyorsell {
+        height: 35%;
+    }
+
+    .lower-div-orderbook {
+        height: 65%;
+    }
+} */
+@media (min-height:800px) {
+    .upper-div-buyorsell {
+        height: 30%;
+    }
+
+    .lower-div-orderbook {
+        height: 70%;
+    }
+}
+
+
+@media (min-height:850px) {
+    .upper-div-buyorsell {
+        height: 30%;
+    }
+
+    .lower-div-orderbook {
+        height: 70%;
+    }
+}
+
+@media (min-height:900px) {
+    .upper-div-buyorsell {
+        height: 25%;
+    }
+
+    .lower-div-orderbook {
+        height: 75%;
+    }
+}
+
+@media (min-height:1000px) {
+    .upper-div-buyorsell {
+        height: 25%;
+    }
+
+    .lower-div-orderbook {
+        height: 75%;
+    }
+}
+
+@media (min-height:1100px) {
+    .upper-div-buyorsell {
+        height: 20%;
+    }
+
+    .lower-div-orderbook {
+        height: 80%;
+    }
+}
+
+@media (max-height:635px) {
+    .upper-div-buyorsell {
+        height: 40%;
+    }
+
+    .lower-div-orderbook {
+        height: 60%;
+    }
+}
+
+@media (max-height:550px) {
+    .upper-div-buyorsell {
+        height: 45%;
+    }
+
+    .lower-div-orderbook {
+        height: 55%;
+    }
+}
+
+@media(max-height:500px) {
+    .upper-div-buyorsell {
+        height: 100%;
+    }
+}

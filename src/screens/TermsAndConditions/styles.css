@@ -1,0 +1,14 @@
+.terms-of-use-main {
+    background: url(../../assets/termsbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terms-of-use-container {
+    border: 1px solid #ccc !important;
+    background-color: #f3f3f3;
+    width: 70% !important;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}

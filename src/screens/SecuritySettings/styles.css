@@ -1,0 +1,39 @@
+.security__page {
+    background-color: #f3f3f3;
+    min-height: 100vh;
+}
+
+.security__page__container {
+    background-color: #f3f3f3;
+    margin-top: 2em !important;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 2em;
+}
+
+.security__page__container__inner__yellow {
+    background-color: rgb(255, 255, 189);
+    margin: 0px 10px;
+    padding: 10px;
+    font-size: 0.875rem;
+}
+
+.security__page__container__inner__icons {
+    font-size: 0.875rem;
+    margin-top: 1em;
+}
+
+.security__page__container__inner__icons__col1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.security__page__container__inner__icons__col2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
